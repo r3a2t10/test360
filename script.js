@@ -139,8 +139,9 @@ window.h5 = {
             video.height = 360;
             video.loop = true;
             video.muted = true;
-
-            video.src = 'http://flimshaw.github.io/Valiant360/videos/overpass-2k.mp4';
+            // http://flimshaw.github.io/Valiant360/videos/overpass-2k.mp4
+            // o2.mp4
+            video.src = './o2.mp4';
             video.setAttribute('webkit-playsinline', 'webkit-playsinline');
             video.setAttribute('playsinline', 'playsinline');
             video.setAttribute('x5-video-player-fullscreen', 'false');
